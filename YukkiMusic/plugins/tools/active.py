@@ -36,9 +36,9 @@ async def activevc(_, message: Message):
             title = "Private Group"
         if (await app.get_chat(x)).username:
             user = (await app.get_chat(x)).username
-            text += f"<b>{j + 1}.</b>  [{title}](https://t.me/{user})[`{x}`]\n"
+            text += f"<b>{j + 1}.</b>  [{title}](https://t.me/{user})\n➥ : [`{x}`]\n"
         else:
-            text += f"<b>{j + 1}. {title}</b> [`{x}`]\n"
+            text += f"<b>{j + 1}. {title}</b>\n➥ : [`{x}`]\n"
         j += 1
     if not text:
         await mystic.edit_text("No Active Voice Chats")
@@ -64,9 +64,9 @@ async def activevi_(_, message: Message):
             title = "Private Group"
         if (await app.get_chat(x)).username:
             user = (await app.get_chat(x)).username
-            text += f"<b>{j + 1}.</b>  [{title}](https://t.me/{user})[`{x}`]\n"
+            text += f"<b>{j + 1}.</b>  [{title}](https://t.me/{user})\n➥ : [`{x}`]\n"
         else:
-            text += f"<b>{j + 1}. {title}</b> [`{x}`]\n"
+            text += f"<b>{j + 1}. {title}</b>\n➥ : [`{x}`]\n"
         j += 1
     if not text:
         await mystic.edit_text("No Active Voice Chats")
