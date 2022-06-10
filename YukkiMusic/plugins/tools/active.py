@@ -80,7 +80,7 @@ async def activevi_(_, message: Message):
         )
 
 @app.on_message(filters.command(ACTIVECH_COMMAND) & SUDOERS)
-async def activevc(_, message: Message):
+async def activech(_, message: Message):
     mystic = await message.reply_text(
         "Getting chats.. Please hold"
     )
