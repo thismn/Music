@@ -79,11 +79,11 @@ async def authorized(client, message: Message, _):
         try:
             title = (await app.get_chat(served_chat)).title
             count += 1
-            text += f"{count}:- {title[:15]} [{served_chat}]\n"
+            text += f"{count}:- {title[:15]} [`{served_chat}`]\n"
         except Exception:
             title = _["pbot_10"]
             co += 1
-            msg += f"{co}:- {title} [{served_chat}]\n"
+            msg += f"{co}:- {title} [`{served_chat}`]\n"
     if co == 0:
         if count == 0:
             return await m.edit(_["pbot_11"])
