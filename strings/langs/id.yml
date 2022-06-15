@@ -76,7 +76,7 @@ admin_34 : "Gagal mencari aliran saat ini."
 # Start
 start_1 : "Terima kasih telah menerima saya di {0}.\n{1} masih hidup.\n\nUntuk bantuan atau bantuan apa pun, periksa saluran dukungan kami."
 start_2 : "Halo, Nama saya {0}.\n\nSaya bot streaming telegram dengan beberapa fitur berguna. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic , Soundcloud dll.\n\nJangan ragu untuk menambahkan saya ke grup Anda."
-start_3 : "Selamat Datang Di {0}\n\nSaya tidak memerlukan **izin admin** untuk bekerja.\n\nNama Pengguna Asisten:- @{1}\nID Asisten:- {2}"
+start_3 : "Selamat Datang Di {0}\n\nSaya tidak memerlukan **izin admin** untuk bekerja.\n\nNama Asisten:- @{1}\nID Asisten:- {2}"
 start_4 : "{0}'s Pemilik [{1}] baru saja bergabung dengan obrolan Anda."
 start_5 : "{0}'s Sudo User [{1}] baru saja bergabung dengan obrolan Anda"
 start_6 : "❗️ **Supergroup Diperlukan** ❗️\n\nHarap ganti dari **group** ke **supergroup** lalu tambahkan saya kembali.\n\n**Bagaimana membuat supergroup?**\n✅ Jadikan riwayat obrolan grup Anda **terlihat**."
