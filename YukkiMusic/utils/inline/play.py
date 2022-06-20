@@ -34,11 +34,12 @@ def track_markup(_, videoid, user_id, channel, fplay):
     return buttons
 
 
-def stream_markup(_, videoid):
+def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(
                 text=_["S_B_10"], url=f"{SUPPORT_CHANNEL}"
@@ -53,11 +54,12 @@ def stream_markup(_, videoid):
     return buttons
 
 
-def telegram_markup(_):
+def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(
                 text=_["S_B_10"], url=f"{SUPPORT_CHANNEL}"
