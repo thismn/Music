@@ -152,19 +152,19 @@ def panel_markup_1(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ⅠⅠ Pause", callback_data=f"ADMIN Pause|{chat_id}"
+                text="⏸ Pause", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="▶︎ Resume",
+                text="▶️ Resume",
                 callback_data=f"ADMIN Resume|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⏭ Skip", callback_data=f"ADMIN Skip|{chat_id}"
+                text="⏯ Skip", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="■ Stop", callback_data=f"ADMIN Stop|{chat_id}"
+                text="⏹ Stop", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
